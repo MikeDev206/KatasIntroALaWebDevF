@@ -1,0 +1,43 @@
+.grid-flag {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	background-color: #c60c30;
+	position: relative;
+}
+
+.grid-white {
+	background-color: #ffffff;
+	position: absolute;
+}
+
+.grid-blue {
+	background-color: #002868;
+	position: absolute;
+}
+
+.grid-horizontal {
+	height: 5vh;
+	width: 100%;
+}
+
+.grid-vertical {
+	height: 100%;
+	width: 5vw;
+}
+
+.grid-white.grid-horizontal {
+	top: 30vh;
+}
+
+.grid-white.grid-vertical {
+	left: 30vw;
+}
+
+.grid-blue.grid-horizontal {
+	top: 32.5vh;
+}
+
+.grid-blue.grid-vertical {
+	left: 32.5vw;
+}
