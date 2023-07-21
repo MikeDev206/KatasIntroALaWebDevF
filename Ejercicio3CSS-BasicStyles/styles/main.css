@@ -1,0 +1,46 @@
+/* general styles */
+body {
+	background-color: #333533;
+	color: #a2d2ff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #8338ec;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 32px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+.lojabenyers {
+	width: 400px;
+	border-radius: 8px;
+}
+
+h2 {
+	color: #f15bb5;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 24px;
+}
+
+.general-data {
+	color: #fcf6bd;
+	font-weight: bold;
+}
+
+a {
+	color: #bb2a26;
+	font-size: 22px;
+}
+
+.tyh {
+	color: #fff;
+	background-color: #000;
+	font-style: oblique;
+}
