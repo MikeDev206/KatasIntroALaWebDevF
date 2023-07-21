@@ -1,0 +1,43 @@
+.flex-flag {
+	display: flex;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-color: #c60c30;
+}
+
+.flex-white {
+	background-color: #ffffff;
+	position: absolute;
+}
+
+.flex-blue {
+	background-color: #002868;
+	position: absolute;
+}
+
+.flex-horizontal {
+	height: 5vh;
+	width: 100%;
+}
+
+.flex-vertical {
+	height: 100%;
+	width: 5vw;
+}
+
+.flex-white.flex-horizontal {
+	top: 30vh;
+}
+
+.flex-white.flex-vertical {
+	left: 30vw;
+}
+
+.flex-blue.flex-horizontal {
+	top: 32.5vh;
+}
+
+.flex-blue.flex-vertical {
+	left: 32.5vw;
+}
